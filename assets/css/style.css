@@ -32,7 +32,7 @@ h2 {
 }
 
 
-/* Header start*/
+/* Header start */
 header {
     background-color: rgb(107, 107, 182);
     padding: 0 0 30px;
@@ -64,8 +64,10 @@ header nav ul li a:hover {
     color: var(--secondary-color);
     list-style-type: none;
 }
-/* Header End*/
+/* Header End */
 
+
+/* About me */
 .about-me {
     color: var(--secondary-color);
     margin: 0 0 40px;
@@ -76,17 +78,35 @@ header nav ul li a:hover {
     width: 30%;
 }
 
+
+/* My Works */
 .my-works {
     background-color: var(--secondary-color);
     margin: 0 0 10px;
     text-align: center;
 }
 
-.my-works img {
-    display: flex;
+.web-content {
+    display: inline-block;
     position: relative;
+    width: 100%;
+}
+
+.web-content ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#recent-web img {
+    width: 50%;
+
+}
+
+.web-content img {
     width: 20%;
 }
+
 
 /* Footer Start */
 footer {
@@ -104,5 +124,9 @@ footer {
 
 .info-section ul {
     list-style: none;
+}
+
+.icon-links img {
+    width: 2%;
 }
 /* Footer End */
